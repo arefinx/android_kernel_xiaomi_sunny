@@ -1,4 +1,4 @@
-/*
+drivers/staging/qca-wifi-host-cmn/target_if/core/src/target_if_main.c/*
  * Copyright (c) 2013-2020 The Linux Foundation. All rights reserved.
  *
  * Permission to use, copy, modify, and/or distribute this software for
@@ -1317,7 +1317,7 @@ struct ce_ops ce_service_legacy = {
 #endif
 };
 
-struct ce_ops *ce_services_legacy()
+struct ce_ops *ce_services_legacy(void)
 {
 	return &ce_service_legacy;
 }
